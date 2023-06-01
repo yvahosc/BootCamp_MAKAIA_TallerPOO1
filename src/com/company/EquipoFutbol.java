@@ -43,13 +43,17 @@ public class EquipoFutbol {
     }
 
     public void mostrarInformacion(){
-        System.out.println("Objeto de la clase EquipoFutbol, con nombre: " +
+        System.out.print("Objeto de la clase EquipoFutbol, con nombre: " +
                 getNombre() + "; ciudad: " + getCiudad() + "; y jugadores: ");
         for (int i = 0; i < jugadores.size(); i++) {
-            if(jugadores.size() == i - 1){
-                System.out.print(getJugadores().get(i).getNombre() + " " +
+            if(jugadores.size() - 1 == i){
+                System.out.print("y " +getJugadores().get(i).getNombre() + " " +
                         getJugadores().get(i).getApellido() + ".\n");
-            }else{
+            }else if(jugadores.size() - 2 == i){
+                System.out.print(getJugadores().get(i).getNombre() + " " +
+                        getJugadores().get(i).getApellido() + " ");
+            }
+            else{
                 System.out.print(getJugadores().get(i).getNombre() + " " +
                         getJugadores().get(i).getApellido() + ", ");
             }
