@@ -1,4 +1,4 @@
-#Taller POO #1
+#Taller POO 1
 ##Desarrollo del primer taller de programación orientada a objetos dentro del desarrollo del BootCamp de desarrollo web BackEnd de MAKAIA. Cuyos puntos a desarrollar son:
 
 ##1. Crea una clase llamada "Carro" que represente un automóvil. La clase debe tener los siguientes requisitos:
